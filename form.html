@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="styleSheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><h4>Personal Information</h4></legend>
+            Name:<br>
+            <input type="text" placeholder="name" required><br>
+            Eamil:<br>
+            <input type= "email" placeholder="xyz@abc.com" required><br>
+            Phone:<br>
+            <input type= "number" placeholder="XXXXXXXXXX" required ><br>
+            <p id="p1">
+            Branch<br>
+            <select required>
+                <option value="branch"></option><option value="branch">CSE</option><option value="branch">ECE</option>
+                <option value="branch">EE</option>
+                <option value="branch">CE</option><option value="branch">ME</option><option value="branch">IT</option>
+            </select><br>
+            </p>
+            Birth date<br>
+            <input type="date" required><br>
+            <br><label for="one">ID card</label>
+            <select id="one" required>
+                <option value="icard"></option><option value="icard">Passport</option>
+                <option value="icard">Aadhar card</option>
+                <option value="icard">College ID</option><option value="icard">Voter card</option>
+            </select required ><br>
+            Branch:<br>
+            <label for="cse">CSE</label><input required type="radio" name="branch"id="cse"><br>
+            <label for="ece">ECE</label><input required type="radio" name="branch"id="ece"><br>
+            <label for="it">IT</label><input  required type="radio" name="branch"id="it"><br>
+            <label for="me">ME</label><input  required type="radio" name="branch"id="me"><br>
+            <label for="ce">CE</label><input  required type="radio" name="branch"id="ce"><br>
+            <label for="ee">EE</label><input  required type="radio" name="branch"id="ee"><br>
+            <label for="22">Are you above 22:</label><input  required type="checkbox" id="22"><br>
+            <label for="single">Are you single:</label><input  required type="checkbox" id="single"><br>
+            <label for="virgin">Are you virgin:</label><input  required type="checkbox" id="virgin"><br>
+            Gender:<br>
+            <label for="male">Male</label><input  required type="radio" name= "gender" id="male"><br>
+            <label for="female">Female</label><input  required type="radio" name= "gender" id="female"><br>
+            <label for="other">Other</label><input  required type="radio" name= "gender" id="other"><br>
+            If other:<br><input  required type="text"><br>
+            Resume:<br>
+            <input type="file"><br>
+            <details>
+                <summary>See your resume</summary>
+                <iframe name="Frame" frameborder="3" width="800" height="500" src="resume.html"></iframe><br>
+            </details>
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET PAGE</button><br>
+            <a href="job.html">NEXT</a><br>
+        </fieldset>
+    </form>
+</body>
+</html>
